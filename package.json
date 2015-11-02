@@ -1,0 +1,22 @@
+{
+  "name": "br-resouce",
+  "version": "0.0.1",
+  "description": "broccoli resouce",
+  "main": "index.js",
+  "engines": {
+    "node": "~>0.10.x",
+    "npm": ">= 1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misak1/br-resouce.git"
+  },
+  "scripts": {},
+  "author": {
+  "name": "Misaki Shibata",
+  "email": "misaki.pink@gmail.com",
+  "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}
