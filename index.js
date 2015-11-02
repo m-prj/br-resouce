@@ -14,7 +14,11 @@ module.exports = function(broccoli) {
     this.type = fileInfo.type;
     var reader = new FileReader();
     reader.onload = function(evt) {
-      callback(evt.target.result);
+      dataUri = evt.target.result;
+      callback({
+        dataUri: dataUri,
+        base64: (dataUri).replace(new RegExp('^data\\:[^\\;]*\\;base64\\,'), '')
+      });
     }
     reader.onerror = function(error) {
       console.log(error);
