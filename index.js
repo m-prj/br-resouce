@@ -12,7 +12,6 @@ module.exports = function(broccoli) {
     this.size = fileInfo.size;
     this.ext = fileInfo.name;
     this.type = fileInfo.type;
-    // this.base64 = fileInfo.size; // <- resourceMgr.resetBase64FromBin(resKey, callback)で更新
     var reader = new FileReader();
     reader.onload = function(evt) {
       callback(evt.target.result);
