@@ -13,10 +13,12 @@
   },
   "scripts": {},
   "author": {
-  "name": "Misaki Shibata",
-  "email": "misaki.pink@gmail.com",
-  "url": ""
+    "name": "Misaki Shibata",
+    "email": "misaki.pink@gmail.com",
+    "url": ""
   },
-  "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "m-util": "0.0.4"
+  }
 }
