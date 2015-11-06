@@ -9,7 +9,7 @@ module.exports = function(broccoli) {
   // クライアント側の選択ファイルからResourceDbを作成
   this.readSelectedLocalFile = function(fileInfo, callback) {
     require('m-util');
-    this.publicFilename = "";
+    this.publicFilename = (fileInfo.name).uGetFileName();
     this.size = fileInfo.size;
     this.ext = (fileInfo.name).uGetFileExt();
     this.type = fileInfo.type;
