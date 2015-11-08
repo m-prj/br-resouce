@@ -1,6 +1,6 @@
 {
   "name": "br-resouce",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "broccoli resouce",
   "main": "index.js",
   "engines": {
@@ -19,6 +19,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "m-util": "0.0.4"
+    "m-util": "*"
   }
 }

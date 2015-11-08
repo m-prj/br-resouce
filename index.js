@@ -1,4 +1,4 @@
-module.exports = function(broccoli) {
+module.exports = function() {
   this.ext;
   this.type;
   this.size;
